@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3qF-2t-nO8">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Home-->
+        <scene sceneID="CpW-Xc-mKa">
+            <objects>
+                <viewController id="5dP-kB-JWs" customClass="UserHome" customModule="StudentAdmissionSQLIteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KRC-5a-cuN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aIG-KP-CcJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TQq-bO-lif"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAQ-Ko-eNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="-660"/>
+        </scene>
+        <!--View Profile-->
+        <scene sceneID="ffl-MT-Quv">
+            <objects>
+                <viewController id="OJg-ec-FM4" customClass="ViewProfile" customModule="StudentAdmissionSQLIteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PZu-FH-CmW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pem-QD-ECd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feQ-rV-HaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1277" y="-658"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ffA-Zg-lYd">
+            <objects>
+                <viewController id="lBL-X1-W04" customClass="ViewController" customModule="StudentAdmissionSQLIteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L19-o4-oYD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jzS-yT-ps3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aF6-9Y-2zU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qG1-gh-6fP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-219" y="-1"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Login" customModule="StudentAdmissionSQLIteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1eE-S2-XiD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="539" y="-1"/>
+        </scene>
+        <!--Admin Home-->
+        <scene sceneID="div-Pq-Ecp">
+            <objects>
+                <viewController id="VhZ-Mn-7KA" customClass="AdminHome" customModule="StudentAdmissionSQLIteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="33C-c6-0hd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SjV-wd-KTV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p82-i9-H5M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ia6-eH-0DD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1291" y="-1"/>
+        </scene>
+        <!--Add Student-->
+        <scene sceneID="rJH-WI-Twy">
+            <objects>
+                <viewController id="pdz-JN-PnF" customClass="AddStudent" customModule="StudentAdmissionSQLIteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iF0-DN-scr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="agi-vV-zSY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="461-SA-iNN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h3T-AT-rV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2788" y="-1"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Iel-rK-LpJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3qF-2t-nO8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4RU-3b-Lql">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lBL-X1-W04" kind="relationship" relationship="rootViewController" id="rc6-fo-Vvb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJK-Pv-kXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1546" y="-1"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V8j-Ou-Dma">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5VP-cQ-ent" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H69-xG-LdJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VhZ-Mn-7KA" kind="relationship" relationship="rootViewController" id="LNc-Sw-mEs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGU-y6-iuj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2000" y="-1"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dUP-aH-NPp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h4Z-Er-JpV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZOL-D0-XFe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5dP-kB-JWs" kind="relationship" relationship="rootViewController" id="koL-Fk-Y49"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFV-zc-ACn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-213.04347826086959" y="-660.26785714285711"/>
+        </scene>
+    </scenes>
+</document>
